@@ -4,13 +4,12 @@ from PyQt6.QtWidgets import (
     QApplication, QMainWindow, QWidget,
     QHBoxLayout, QVBoxLayout, QFrame,
     QLabel, QPushButton, QComboBox,
-    QSpinBox, QTableWidget, QTableWidgetItem, QLineEdit,
-    QSizePolicy, QHeaderView, QFileDialog, QFormLayout, QSplitter
+    QTableWidget, QTableWidgetItem, QLineEdit,
+    QSizePolicy, QFileDialog, QFormLayout, QSplitter
 )
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QIntValidator, QIcon
 from sqlGames import get_genres, get_publishers, get_platforms, run_query
-import pandas as pd
 import csv
 
 from matplotlib.backends.backend_qtagg import FigureCanvasQTAgg as FigureCanvas
